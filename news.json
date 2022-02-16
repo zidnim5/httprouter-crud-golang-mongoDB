@@ -1,0 +1,10 @@
+{
+     "_id": "object_id",
+     "topic": "news topic",
+     "title": "news title",
+     "status": "draft/deleted/publish",
+     "tags": [
+          "name_tags"
+     ],
+     "content": "news content"
+}

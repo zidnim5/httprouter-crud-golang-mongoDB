@@ -1,0 +1,54 @@
+### Get all news
+GET http://localhost:3000/api/news
+accept: application/json
+Content-Type: application/json
+
+### Get all news with param
+GET http://localhost:3000/api/news?topic=news topic2
+accept: application/json
+Content-Type: application/json
+
+### Get all news with param
+GET http://localhost:3000/api/news?status=deleted
+accept: application/json
+Content-Type: application/json
+
+
+### Create new news
+POST http://localhost:3000/api/news
+Accept: application/json 
+Content-Type: application/json
+
+{
+     "_id" : "62055c84aa28b26a47a2b0c2",
+     "topic": "Investasi",
+     "title": "Investasi mudah",
+     "status": "draft",
+     "tags": [
+       "invest",
+       "nabung"
+     ],
+     "content": "news content"
+}
+
+### Update news
+PATCH http://localhost:3000/api/news
+Accept: application/json
+Content-Type: application/json
+
+{
+     "_id" : "62055c84aa28b26a47a2b0c2",
+     "topic": "Investasi II",
+     "title": "Investasi mudah",
+     "status": "publish",
+     "tags": [
+       "invest",
+       "nabung"
+     ],
+     "content": "news content"
+}
+
+### Delete news
+DELETE http://localhost:3000/api/news/62055c84aa28b26a47a2b0c2
+Accept: application/json
+Content-Type: application/json

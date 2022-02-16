@@ -1,0 +1,138 @@
+{"level":"error","msg":"Key: 'NewsUpdateRequest.Id' Error:Field validation for 'Id' failed on the 'required' tag","time":"2022-02-11T00:04:47+07:00"}
+{"level":"error","msg":"Key: 'NewsUpdateRequest.Id' Error:Field validation for 'Id' failed on the 'required' tag","time":"2022-02-11T00:12:03+07:00"}
+{"level":"error","msg":"invalid character '}' looking for beginning of object key string","time":"2022-02-11T01:41:54+07:00"}
+{"level":"error","msg":"invalid character '}' looking for beginning of object key string","time":"2022-02-11T01:41:54+07:00"}
+{"level":"error","msg":"invalid character ']' looking for beginning of value","time":"2022-02-11T01:41:59+07:00"}
+{"level":"error","msg":"invalid character ']' looking for beginning of value","time":"2022-02-11T01:41:59+07:00"}
+{"level":"error","msg":"invalid character ']' looking for beginning of value","time":"2022-02-11T01:42:03+07:00"}
+{"level":"error","msg":"invalid character ']' looking for beginning of value","time":"2022-02-11T01:42:03+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:01:28+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:02:33+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:03:05+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:03:34+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:05:02+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:05:06+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:12:50+07:00"}
+{"level":"info","msg":"Get from DB","time":"2022-02-11T08:12:50+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:12:54+07:00"}
+{"level":"info","msg":"Get from DB","time":"2022-02-11T08:12:54+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:13:03+07:00"}
+{"level":"info","msg":"Get from DB","time":"2022-02-11T08:13:03+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:13:09+07:00"}
+{"level":"info","msg":"Get from DB","time":"2022-02-11T08:13:09+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:13:16+07:00"}
+{"level":"info","msg":"Get from DB","time":"2022-02-11T08:13:16+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:14:16+07:00"}
+{"level":"info","msg":"Get from DB","time":"2022-02-11T08:14:16+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:14:22+07:00"}
+{"level":"info","msg":"Get from DB","time":"2022-02-11T08:14:22+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:14:41+07:00"}
+{"level":"info","msg":"Get from DB","time":"2022-02-11T08:14:41+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:14:57+07:00"}
+{"level":"info","msg":"Get from DB","time":"2022-02-11T08:14:57+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:15:28+07:00"}
+{"level":"info","msg":"Get from DB","time":"2022-02-11T08:15:28+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:15:32+07:00"}
+{"level":"info","msg":"Get from DB","time":"2022-02-11T08:15:32+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:15:37+07:00"}
+{"level":"info","msg":"Get from DB","time":"2022-02-11T08:15:37+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:15:45+07:00"}
+{"level":"info","msg":"Get from DB","time":"2022-02-11T08:15:45+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:15:47+07:00"}
+{"level":"info","msg":"Get from DB","time":"2022-02-11T08:15:47+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:15:51+07:00"}
+{"level":"info","msg":"Get from DB","time":"2022-02-11T08:15:51+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:16:25+07:00"}
+{"level":"info","msg":"Get from DB","time":"2022-02-11T08:16:25+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:16:39+07:00"}
+{"level":"info","msg":"Get from DB","time":"2022-02-11T08:16:39+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:16:46+07:00"}
+{"level":"info","msg":"Get from DB","time":"2022-02-11T08:16:46+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:18:10+07:00"}
+{"level":"info","msg":"Get from DB","time":"2022-02-11T08:18:10+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:18:27+07:00"}
+{"level":"info","msg":"Get from DB","time":"2022-02-11T08:18:27+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:18:39+07:00"}
+{"level":"info","msg":"Get from DB","time":"2022-02-11T08:18:39+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:18:57+07:00"}
+{"level":"info","msg":"Get from DB","time":"2022-02-11T08:18:57+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:19:35+07:00"}
+{"level":"info","msg":"Get from DB","time":"2022-02-11T08:19:35+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:19:54+07:00"}
+{"level":"info","msg":"Get from DB","time":"2022-02-11T08:19:54+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:24:59+07:00"}
+{"level":"error","msg":"redis: nil","time":"2022-02-11T08:24:59+07:00"}
+{"level":"error","msg":"redis: nil","time":"2022-02-11T08:24:59+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:25:35+07:00"}
+{"level":"error","msg":"redis: nil","time":"2022-02-11T08:25:35+07:00"}
+{"level":"error","msg":"redis: nil","time":"2022-02-11T08:25:35+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:25:58+07:00"}
+{"level":"error","msg":"reflect: call of reflect.Value.IsNil on string Value","time":"2022-02-11T08:25:58+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:26:24+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:27:05+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:28:12+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:28:40+07:00"}
+{"level":"info","msg":"Get from DB","time":"2022-02-11T08:28:40+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:28:43+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:29:10+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:29:22+07:00"}
+{"level":"info","msg":"Get from DB","time":"2022-02-11T08:29:22+07:00"}
+{"level":"error","msg":"redis: can't marshal []domain.News (implement encoding.BinaryMarshaler)","time":"2022-02-11T08:29:22+07:00"}
+{"level":"error","msg":"redis: can't marshal []domain.News (implement encoding.BinaryMarshaler)","time":"2022-02-11T08:29:22+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:31:18+07:00"}
+{"level":"error","msg":"unexpected end of JSON input","time":"2022-02-11T08:31:18+07:00"}
+{"level":"error","msg":"unexpected end of JSON input","time":"2022-02-11T08:31:18+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:31:45+07:00"}
+{"level":"error","msg":"unexpected end of JSON input","time":"2022-02-11T08:31:45+07:00"}
+{"level":"error","msg":"unexpected end of JSON input","time":"2022-02-11T08:31:45+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:32:00+07:00"}
+{"level":"error","msg":"unexpected end of JSON input","time":"2022-02-11T08:32:00+07:00"}
+{"level":"error","msg":"unexpected end of JSON input","time":"2022-02-11T08:32:00+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:32:02+07:00"}
+{"level":"error","msg":"unexpected end of JSON input","time":"2022-02-11T08:32:02+07:00"}
+{"level":"error","msg":"unexpected end of JSON input","time":"2022-02-11T08:32:02+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:32:37+07:00"}
+{"level":"info","msg":"Get from DB","time":"2022-02-11T08:32:37+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:32:41+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:33:04+07:00"}
+{"level":"error","msg":"json: cannot unmarshal array into Go value of type string","time":"2022-02-11T08:33:04+07:00"}
+{"level":"error","msg":"json: cannot unmarshal array into Go value of type string","time":"2022-02-11T08:33:04+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:33:21+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:33:23+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:33:24+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:33:25+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:33:41+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:33:48+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:33:59+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:34:34+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:34:41+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:34:59+07:00"}
+{"level":"info","msg":"Get from DB","time":"2022-02-11T08:34:59+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:35:05+07:00"}
+{"level":"info","msg":"Get from DB","time":"2022-02-11T08:35:05+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:35:07+07:00"}
+{"level":"info","msg":"Get from DB","time":"2022-02-11T08:35:07+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:35:12+07:00"}
+{"level":"info","msg":"Get from DB","time":"2022-02-11T08:35:12+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:35:14+07:00"}
+{"level":"info","msg":"Get from DB","time":"2022-02-11T08:35:14+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:35:33+07:00"}
+{"level":"info","msg":"Get from DB","time":"2022-02-11T08:35:33+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:35:34+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:35:36+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:35:37+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:35:39+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:35:40+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:37:42+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:38:20+07:00"}
+{"level":"info","msg":"Get from DB","time":"2022-02-11T08:38:20+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:38:25+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:38:26+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:38:26+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:38:27+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:38:28+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:38:28+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:40:54+07:00"}
+{"level":"info","msg":"Get from DB","time":"2022-02-11T08:40:54+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:40:57+07:00"}
+{"level":"info","msg":"Get from redis","time":"2022-02-11T08:41:02+07:00"}

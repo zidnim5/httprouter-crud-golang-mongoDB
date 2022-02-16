@@ -1,0 +1,29 @@
+### Get All categories
+GET http://localhost:3000/api/tags
+accept: application/json
+Content-Type: application/json
+
+
+### Create new categories
+POST http://localhost:3000/api/tags
+Accept: application/json 
+Content-Type: application/json
+
+{
+     "name":"Investasi"
+}
+
+### Update categories
+PUT http://localhost:3000/api/tags
+Accept: application/json
+Content-Type: application/json
+
+{
+     "id":"tags_id",
+     "name": "Investasi"
+}
+
+### Delete categories
+DELETE http://localhost:3000/api/tags/{tags_id}
+Accept: application/json
+Content-Type: application/json

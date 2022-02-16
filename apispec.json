@@ -1,0 +1,453 @@
+{
+     "openapi": "3.0.2",
+     "info": {
+          "title": "GOLANG MONGODB",
+          "version": "1.0.0"
+     },
+     "servers": [
+          {
+               "url": "http://localhost:3000/api/"
+          }
+     ],
+     "paths": {
+          "/tags": {
+               "get": {
+                    "tags": [
+                         "Tags"
+                    ],
+                    "summary": "Get list of tags",
+                    "description": "Get list of tags",
+                    "responses": {
+                         "200": {
+                              "description": "List of tags",
+                              "content": {
+                                   "application/json": {
+                                        "schema": {
+                                             "type": "object",
+                                             "properties": {
+                                                  "code": {
+                                                       "type": "string"
+                                                  },
+                                                  "success": {
+                                                       "type": "boolean"
+                                                  },
+                                                  "message": {
+                                                       "type": "string"
+                                                  },
+                                                  "data": {
+                                                       "type": "array",
+                                                       "items": {
+                                                            "$ref": "#/components/schemas/tags"
+                                                       }
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               },
+               "post": {
+                    "tags": [
+                         "Tags"
+                    ],
+                    "summary": "Create tags",
+                    "requestBody": {
+                         "required": true,
+                         "content": {
+                              "application/json": {
+                                   "schema": {
+                                        "type": "object",
+                                        "properties": {
+                                             "name": {
+                                                  "type": "string"
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    },
+                    "responses": {
+                         "201": {
+                              "description": "Create tags",
+                              "content": {
+                                   "application/json": {
+                                        "schema": {
+                                             "type": "object",
+                                             "properties": {
+                                                  "code": {
+                                                       "type": "string"
+                                                  },
+                                                  "success": {
+                                                       "type": "boolean"
+                                                  },
+                                                  "message": {
+                                                       "type": "string"
+                                                  },
+                                                  "data": {
+                                                       "$ref": "#/components/schemas/tags"
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               },
+               "patch": {
+                    "tags": [
+                         "Tags"
+                    ],
+                    "summary": "Update tags",
+                    "requestBody": {
+                         "required": true,
+                         "content": {
+                              "application/json": {
+                                   "schema": {
+                                        "type": "object",
+                                        "properties": {
+                                             "name": {
+                                                  "type": "string"
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    },
+                    "responses": {
+                         "200": {
+                              "description": "Update tags",
+                              "content": {
+                                   "application/json": {
+                                        "schema": {
+                                             "type": "object",
+                                             "properties": {
+                                                  "code": {
+                                                       "type": "string"
+                                                  },
+                                                  "success": {
+                                                       "type": "boolean"
+                                                  },
+                                                  "message": {
+                                                       "type": "string"
+                                                  },
+                                                  "data": {
+                                                       "$ref": "#/components/schemas/tags"
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+          },
+          "/tags/{tags_id}": {
+               "delete": {
+                    "tags": [
+                         "Tags"
+                    ],
+                    "parameters": [
+                         {
+                              "name": "tags_id",
+                              "in": "path",
+                              "required": true,
+                              "schema": {}
+                         }
+                    ],
+                    "summary": "Delete tags",
+                    "description": "Delete tags",
+                    "responses": {
+                         "200": {
+                              "description": "Delete tags",
+                              "content": {
+                                   "application/json": {
+                                        "schema": {
+                                             "type": "object",
+                                             "properties": {
+                                                  "code": {
+                                                       "type": "string"
+                                                  },
+                                                  "success": {
+                                                       "type": "boolean"
+                                                  },
+                                                  "message": {
+                                                       "type": "string"
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+          },
+          "/news": {
+               "get": {
+                    "tags": [
+                         "News"
+                    ],
+                    "parameters": [
+                         {
+                              "name": "status",
+                              "in": "query",
+                              "schema": {},
+                              "description": "Filter by status ( draft / deleted / publish )"
+                         },
+                         {
+                              "name": "topics",
+                              "in": "query",
+                              "schema": {},
+                              "description": "Filter by topics "
+                         }
+                    ],
+                    "summary": "Get list of news",
+                    "responses": {
+                         "200": {
+                              "description": "Get list of news",
+                              "content": {
+                                   "application/json": {
+                                        "schema": {
+                                             "type": "object",
+                                             "properties": {
+                                                  "code": {
+                                                       "type": "string"
+                                                  },
+                                                  "success": {
+                                                       "type": "boolean"
+                                                  },
+                                                  "message": {
+                                                       "type": "string"
+                                                  },
+                                                  "data": {
+                                                       "type": "array",
+                                                       "items": {
+                                                            "$ref": "#/components/schemas/news"
+                                                       }
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               },
+               "post": {
+                    "tags": [
+                         "News"
+                    ],
+                    "summary": "Create news",
+                    "description": "Create news",
+                    "requestBody": {
+                         "required": true,
+                         "content": {
+                              "application/json": {
+                                   "schema": {
+                                        "type": "object",
+                                        "properties": {
+                                             "topic": {
+                                                  "type": "string"
+                                             },
+                                             "tags": {
+                                                  "type": "array",
+                                                  "items": {
+                                                       "type": "string"
+                                                  }
+                                             },
+                                             "title": {
+                                                  "type": "string"
+                                             },
+                                             "status": {
+                                                  "type": "string",
+                                                  "description": "draft / publish"
+                                             },
+                                             "content": {
+                                                  "type": "string"
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    },
+                    "responses": {
+                         "201": {
+                              "description": "Create news",
+                              "content": {
+                                   "application/json": {
+                                        "schema": {
+                                             "type": "object",
+                                             "properties": {
+                                                  "code": {
+                                                       "type": "string"
+                                                  },
+                                                  "success": {
+                                                       "type": "boolean"
+                                                  },
+                                                  "message": {
+                                                       "type": "string"
+                                                  },
+                                                  "data": {
+                                                       "$ref": "#/components/schemas/news"
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               },
+               "patch": {
+                    "tags": [
+                         "News"
+                    ],
+                    "summary": "Update news",
+                    "description": "Update news",
+                    "requestBody": {
+                         "required": true,
+                         "content": {
+                              "application/json": {
+                                   "schema": {
+                                        "$ref": "#/components/schemas/news_without_id"
+                                   }
+                              }
+                         }
+                    },
+                    "responses": {
+                         "200": {
+                              "description": "Update news",
+                              "content": {
+                                   "application/json": {
+                                        "schema": {
+                                             "type": "object",
+                                             "properties": {
+                                                  "code": {
+                                                       "type": "string"
+                                                  },
+                                                  "success": {
+                                                       "type": "string"
+                                                  },
+                                                  "message": {
+                                                       "type": "string"
+                                                  },
+                                                  "data": {
+                                                       "$ref": "#/components/schemas/news"
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+          },
+          "/news/{news_id}": {
+               "delete": {
+                    "tags": [
+                         "News"
+                    ],
+                    "summary": "Delete news",
+                    "description": "Delete news",
+                    "parameters": [
+                         {
+                              "name": "news_id",
+                              "in": "path",
+                              "required": true,
+                              "schema": {
+                                   "type": "string"
+                              }
+                         }
+                    ],
+                    "responses": {
+                         "200": {
+                              "description": "Delete news",
+                              "content": {
+                                   "application/json": {
+                                        "schema": {
+                                             "type": "object",
+                                             "properties": {
+                                                  "code": {
+                                                       "type": "string"
+                                                  },
+                                                  "success": {
+                                                       "type": "boolean"
+                                                  },
+                                                  "message": {
+                                                       "type": "string"
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+     },
+     "components": {
+          "schemas": {
+               "tags": {
+                    "type": "object",
+                    "properties": {
+                         "_id": {
+                              "type": "string"
+                         },
+                         "name": {
+                              "type": "string"
+                         }
+                    }
+               },
+               "news": {
+                    "type": "object",
+                    "properties": {
+                         "_id": {
+                              "type": "string"
+                         },
+                         "topic": {
+                              "type": "string"
+                         },
+                         "title": {
+                              "type": "string"
+                         },
+                         "slug": {
+                              "type": "string"
+                         },
+                         "status": {
+                              "type": "string"
+                         },
+                         "tags": {
+                              "type": "array",
+                              "items": {
+                                   "type": "string"
+                              }
+                         },
+                         "content": {
+                              "type": "string"
+                         }
+                    }
+               },
+               "news_without_id": {
+                    "type": "object",
+                    "properties": {
+                         "topic": {
+                              "type": "string"
+                         },
+                         "title": {
+                              "type": "string"
+                         },
+                         "status": {
+                              "type": "string"
+                         },
+                         "tags": {
+                              "type": "array",
+                              "items": {
+                                   "type": "string"
+                              }
+                         },
+                         "content": {
+                              "type": "string"
+                         }
+                    }
+               }
+          }
+     }
+}
