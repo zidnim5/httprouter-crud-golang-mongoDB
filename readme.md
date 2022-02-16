@@ -1,6 +1,4 @@
-Hi welcome! 👋
 <img src="icon.png" align="right" />
-
 
 
 # Tech Stack
@@ -19,7 +17,7 @@ Hi welcome! 👋
 
 - MongoDB
      - Create database name "crud"
-     - Craeate collection "news & tags"
+     - Create collection "news & tags"
 - Redis
 
 ## Installation
