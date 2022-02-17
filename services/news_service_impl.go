@@ -119,7 +119,7 @@ func (c *NewsServiceImpl) Delete(ctx context.Context, request web.NewsDeleteRequ
  *
  * @param context.Context
  *
- * @return []domain.news
+ * @return interface{}
  *
  */
 func (c *NewsServiceImpl) FindAll(ctx context.Context, request web.NewsFindRequest) interface{} {
@@ -128,7 +128,6 @@ func (c *NewsServiceImpl) FindAll(ctx context.Context, request web.NewsFindReque
 	var key string
 
 	if request != findRequest {
-
 		// get to redis
 		if request.Status != "" {
 			fmt.Println("Get from redis")
@@ -142,15 +141,16 @@ func (c *NewsServiceImpl) FindAll(ctx context.Context, request web.NewsFindReque
 			key = request.Topic
 		}
 
-		// convert interface{} to struct{}
-		if findAllResult == nil || findAllResult == "" {
-			fmt.Println("Get from DB")
-			logrus.Info("Get from DB")
-			findAllResult = c.NewsRepository.FindAll(ctx, c.DB, request)
+	}
 
-			// set to redis
-			helper.SetRedis(c.Rds, key, findAllResult)
-		}
+	// convert interface{} to struct{}
+	if findAllResult == nil || findAllResult == "" {
+		fmt.Println("Get from DB")
+		logrus.Info("Get from DB")
+		findAllResult = c.NewsRepository.FindAll(ctx, c.DB, request)
+
+		// set to redis
+		helper.SetRedis(c.Rds, key, findAllResult)
 	}
 
 	return findAllResult
