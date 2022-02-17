@@ -4,7 +4,7 @@ accept: application/json
 Content-Type: application/json
 
 ### Get all news with param
-GET http://localhost:3000/api/news?topic=news topic2
+GET http://localhost:3000/api/news?topic=Investasi
 accept: application/json
 Content-Type: application/json
 
